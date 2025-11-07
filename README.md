@@ -5,7 +5,7 @@ Suivi complet d'expérimentations Machine Learning avec **MLflow**
 ---
 #  Contexte du projet
 
-L’entreprise fictive pour laquelle ce projet est réalisé souhaite réduire le taux de départ de ses clients (appelé churn).
+L’entreprise pour laquelle ce projet est réalisé souhaite réduire le taux de départ de ses clients (appelé churn).
 En effet, conserver un client existant coûte souvent 5 à 7 fois moins cher que d’en acquérir un nouveau.
 L’objectif est donc de prédire les clients susceptibles de quitter afin d’anticiper et personnaliser les actions de fidélisation.
 
