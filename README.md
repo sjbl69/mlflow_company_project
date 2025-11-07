@@ -50,3 +50,32 @@ python -m venv .venv
 # Installer les dépendances
 pip install -r requirements.txt
 
+mlflow_company_project/
+│
+├── data/
+│   ├── raw/                # Données brutes simulées
+│   ├── outputs/            # Graphiques et rapports générés
+│
+├── src/
+│   ├── models/             # Scripts d'entraînement, d'explicabilité, d'optimisation
+│   ├── utils/              # Fonctions utilitaires (lecture, écriture, etc.)
+│
+├── config.yaml             # Configuration du projet
+├── environment.yml          # Dépendances Conda
+├── requirements.txt         # Dépendances pip
+├── README.md
+└── Makefile
+
+🧰 Outils utilisés
+
+Python 3.12
+
+scikit-learn
+
+MLflow
+
+SHAP
+
+Matplotlib
+
+Pandas / NumPy
