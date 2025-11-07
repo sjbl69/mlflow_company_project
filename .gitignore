@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+
+# OS
+.DS_Store
+Thumbs.db

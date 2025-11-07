@@ -1,0 +1,10 @@
+🌟 Rapport d'importance des variables (modèle local SHAP)
+==================================================
+
+               feature  mean_abs_shap
+            anciennete       0.418502
+                revenu       0.255964
+contact_service_client       0.250012
+          satisfaction       0.192019
+         achats_moyens       0.181991
+                   age       0.154435

@@ -1,0 +1,24 @@
+data:
+  raw_csv: data/raw/dataset.csv
+target: "churn"
+categorical: []
+numerical: ["age", "revenu", "anciennete", "satisfaction", "achats_moyens", "contact_service_client"]
+positive_label: 1
+experiment_name: "OC-MLflow-Churn"
+run_name: "baseline"
+random_state: 42
+test_size: 0.2
+val_size: 0.2
+cv_folds: 5
+
+costs:
+  false_positive: 1.0
+  false_negative: 5.0
+
+model:
+  algorithm: "logreg"
+  logreg:
+    C: 1.0
+    penalty: "l2"
+    max_iter: 200
+    class_weight: "balanced"
