@@ -1,7 +1,6 @@
 #  MLflow Company Project
 
 Suivi complet d'expérimentations Machine Learning avec **MLflow**  
-Projet réalisé dans le cadre du parcours **Data Scientist - OpenClassrooms**.
 
 ---
 
